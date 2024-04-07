@@ -50,6 +50,18 @@ docker run -d -e TOKEN=<your_bot_token> discord-badge
 ```
 4. Jump directly to step 12 and follow the remaining steps from the main instruction
 
+### With pre-built Docker Image
+1. Follow step 1 to 4 from the main instruction above
+2. Pull the Docker image
+```bash
+docker pull ghcr.io/gabrielkheisa/discord-active-developer-badge/discord-badge:latest
+```
+3. Run the container and insert your Discord bot token
+```bash
+docker run -d -e TOKEN=<your_bot_token> ghcr.io/gabrielkheisa/discord-active-developer-badge/discord-badge:latest
+```
+4. Jump directly to step 12 and follow the remaining steps from the main instruction
+
 
 **NOTE:** Make sure you have the “Use data to improve Discord” setting enabled under User Settings > Privacy & Safety otherwise you won't be able to be marked as eligible.
 
