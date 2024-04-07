@@ -17,8 +17,4 @@ jobs:
       uses: actions/checkout@v2
 
     - name: Build Docker image
-<<<<<<< HEAD
       run: docker build -t discord-badge .
-=======
-      run: docker build -t discord-badge .
->>>>>>> dev
